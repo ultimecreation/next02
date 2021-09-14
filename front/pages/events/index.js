@@ -1,7 +1,11 @@
+import Head from 'next/head'
+import Layout from '../../components/Layout'
 export default function EventsPage() {
     return (
         <div>
-            <h1>Events page</h1>
+           <Layout>
+               <h1>Events</h1>
+           </Layout>
         </div>
     )
 }
